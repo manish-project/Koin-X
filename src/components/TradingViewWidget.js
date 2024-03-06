@@ -1,5 +1,6 @@
 // TradingViewWidget.jsx
 import React, { useEffect, useRef, memo } from "react";
+import Menu from "./Menu";
 
 function TradingViewWidget() {
   const container = useRef();
@@ -14,18 +15,15 @@ function TradingViewWidget() {
         {
           "symbols": [
             [
-              "BITSTAMP:BTCUSD|1D|USD"
-            ],
-            [
-              "NASDAQ:GOOG|1D|USD"
+              "BITSTAMP:BTCUSD|7D"
             ]
           ],
           "chartOnly": false,
-          "width": "1000",
-          "height": "800",
+          "width": "100%",
+          "height": "100%",
           "locale": "en",
           "colorTheme": "light",
-          "autosize": false,
+          "autosize": true,
           "showVolume": false,
           "showMA": false,
           "hideDateRanges": false,
@@ -38,40 +36,30 @@ function TradingViewWidget() {
           "noTimeScale": false,
           "valuesTracking": "1",
           "changeMode": "price-and-percent",
-          "chartType": "line",
-          "maLineColor": "#2962FF",
-          "maLineWidth": 1,
-          "maLength": 9,
-          "lineWidth": 3,
+          "chartType": "area",
+          "volumeDownColor": "rgba(255, 235, 59, 0.5)",
+          "lineWidth": 1,
           "lineType": 0,
           "dateRanges": [
             "1d|1",
+            "1w|60",
             "1m|30",
             "3m|60",
             "12m|1D",
             "60m|1W",
             "all|1M"
           ],
-          "color": "rgba(41, 98, 255, 1)"
+          "lineColor": "rgba(41, 98, 255, 1)",
+          "timeHoursFormat": "24-hours"
         }`;
     container.current.appendChild(script);
   }, []);
 
   return (
-    <div
-      className="tradingview-widget-container ml-12 rounded-lg"
-      ref={container}
-    >
+    <div className="tradingview-widget-container lg:ml-10 p-3" ref={container}>
       <div className="tradingview-widget-container__widget"></div>
-      <div className="tradingview-widget-copyright">
-        <a
-          href="https://www.tradingview.com/"
-          rel="noopener nofollow"
-          target="_blank"
-        >
-          <span className="blue-text">Track all markets on TradingView</span>
-        </a>
-      </div>
+      <Menu />
+      <hr className=" bg-slate-300 h-1" />
     </div>
   );
 }

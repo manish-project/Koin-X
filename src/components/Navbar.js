@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
-
+import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenuUnfold } from "react-icons/ai";
 
 function Navbar() {
+  const [menu, Setmenu] = useState(false);
+  const handleMenu = () => {
+    Setmenu(!menu);
+  };
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white"> <div>
       <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]">
         <div className="flex flex-row items-center cursor-pointer">
-          <img src="assets/images/logo.png" alt="logo" width={70} />
+          <img src="assets/images/logo1.svg" alt="logo" width={80} />
         </div>
         <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-10 ">
           <Link
@@ -42,6 +47,14 @@ function Navbar() {
             Get Started
           </button>
         </nav>
+        <div className="md:hidden  flex items-center">
+          {menu ? (
+            <AiOutlineClose size={25} onClick={handleMenu} />
+          ) : (
+            <AiOutlineMenuUnfold size={25} onClick={handleMenu} />
+          )}
+        </div>
+      </div>
       </div>
     </div>
   );
