@@ -43,7 +43,7 @@ function Chart({ title }) {
     fetchTrendingData();
   }, []);
   return (
-    <div className="p-10 ml-10 max-w-full mt-10 rounded-lg">
+    <div className="lg:p-10 lg:ml-10 max-w-full mt-10 rounded-lg">
       <div>
         <div className="text-3xl font-bold p-10">{title}</div>
         <div className="">
