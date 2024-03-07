@@ -8,3 +8,7 @@ body {
   box-sizing: border-box;
   background-color: gainsboro;
 }
+
+.slick-slide > div {
+  margin: 0px 10px;
+}

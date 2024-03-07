@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto nemo eveniet.",
+      "image": "images/wallet.png",
+      "content":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa?"
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto nemo eveniet.",
+        "image": "images/uparow.png",
+        "content":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa?"
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto nemo eveniet.",
+        "image": "images/bitcoin.png",
+        "content":" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa?"
+    }
+  ]
+  

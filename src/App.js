@@ -6,6 +6,8 @@ import TradingViewWidget from "./components/TradingViewWidget";
 import KoinxAd from "./components/KoinxAd";
 import TrendingCoins from "./components/TrendingCoins";
 import PerformancePage from "./components/PerformancePage";
+import SentimentSection from "./components/SentimentSection";
+import Carousel from "./components/Carousel";
 function App() {
   return (
     <div>
@@ -21,9 +23,14 @@ function App() {
         <span className="font-medium">Bitcoin</span>
       </div>
       <main className="flex flex-wrap flex-col lg:flex-row md:flex-row">
-        <div className="lg:w-8/12 md:w-8/12 w-full lg:mr-8 ">
-          <TradingViewWidget />
-          <PerformancePage />
+        <div className="lg:w-8/12 md:w-8/12 w-full lg:mr-8">
+          <div className="w-full lg:h-2/3 md:h-1/2 h-full">
+            <TradingViewWidget />
+          </div>
+          <div>
+            <PerformancePage />
+            <SentimentSection />
+          </div>
         </div>
 
         <div className="lg:w-1/4 md:w-1/3 ">

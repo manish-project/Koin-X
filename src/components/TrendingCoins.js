@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { GoTriangleUp } from "react-icons/go";
 
 function App() {
   const [trendingData, setTrendingData] = useState([]);
@@ -47,6 +48,7 @@ function App() {
                 key={coin.item.data.price_change_percentage_24h.usd}
                 className="bg-green-100 px-2 rounded-"
               >
+                <GoTriangleUp className="inline" />
                 {` ${coin.item.data.price_change_percentage_24h.usd.toFixed(
                   2
                 )}%`}
