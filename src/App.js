@@ -9,6 +9,9 @@ import PerformancePage from "./components/PerformancePage";
 import SentimentSection from "./components/SentimentSection";
 import Tokenomics from "./components/Tokenomics";
 import AboutSection from "./components/AboutSection";
+import Team from "./components/Team";
+import Chart from "./components/Chart";
+
 function App() {
   return (
     <div>
@@ -23,16 +26,19 @@ function App() {
         </span>
         <span className="font-medium">Bitcoin</span>
       </div>
-      <main className="flex flex-wrap flex-col lg:flex-row md:flex-row">
+      <main className="flex flex-wrap flex-col lg:flex-row md:flex-row lg:mb-20 mb-10">
         <div className="lg:w-8/12 md:w-8/12 w-full lg:mr-8">
-          <div className="w-full lg:h-1/2 md:h-1/3 h-full">
+          <div className="w-full lg:h-1/6 md:h-1/6 h-full">
             <TradingViewWidget />
           </div>
           <div>
             <PerformancePage />
             <SentimentSection />
             <AboutSection />
-            {/* <Tokenomics /> */}
+            <Tokenomics />
+            <Team />
+            <Chart title="You may also Like" />
+            <Chart title="Trending Coins" />
           </div>
         </div>
 

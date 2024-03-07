@@ -30,7 +30,7 @@ function Carousel() {
       <div className="mt-6">
         <Slider {...settings}>
           {data.map((item, index) => (
-            <div key={index} className="my-4 bg-green-100 rounded-lg">
+            <div key={index} className="my-4 bg-blue-100 rounded-lg">
               <div className="flex justify-center p-5 ">
                 <img
                   src={item.image}

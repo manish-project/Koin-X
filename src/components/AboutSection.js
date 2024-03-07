@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="bg-white ml-10 mt-10 mb-10 w-full">
+    <div className="bg-white lg:ml-10 ml-5  mt-10 mb-10 w-full pb-12 rounded-lg">
       <div className="">
         <div className="pl-5">
           <h1 className="p-5 text-3xl font-bold">About Bitcoin</h1>

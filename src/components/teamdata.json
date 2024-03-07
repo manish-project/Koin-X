@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Parag Agarwal",
+        "image":"images/person1.jpg",
+        "designation":"CEO",
+        "about":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa."
+
+    },
+    {
+        "name":"Manish Kumar",
+        "image":"images/person2.jpg",
+        "designation":"Lead Engineer",
+        "about":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa."
+
+    },
+    {
+        "name":"John Doe",
+        "image":"images/person3.jpg",
+        "designation":"Senior Engineer",
+        "about":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempora eos inventore amet? Tenetur voluptatum facere corrupti ipsa eaque nisi porro iste delectus obcaecati, numquam laudantium id impedit molestias dolor, ducimus ipsum. Ea voluptatum ducimus dolore officia reiciendis saepe culpa."
+
+    }
+]
