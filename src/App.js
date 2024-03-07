@@ -7,7 +7,8 @@ import KoinxAd from "./components/KoinxAd";
 import TrendingCoins from "./components/TrendingCoins";
 import PerformancePage from "./components/PerformancePage";
 import SentimentSection from "./components/SentimentSection";
-import Carousel from "./components/Carousel";
+import Tokenomics from "./components/Tokenomics";
+import AboutSection from "./components/AboutSection";
 function App() {
   return (
     <div>
@@ -24,12 +25,14 @@ function App() {
       </div>
       <main className="flex flex-wrap flex-col lg:flex-row md:flex-row">
         <div className="lg:w-8/12 md:w-8/12 w-full lg:mr-8">
-          <div className="w-full lg:h-2/3 md:h-1/2 h-full">
+          <div className="w-full lg:h-1/2 md:h-1/3 h-full">
             <TradingViewWidget />
           </div>
           <div>
             <PerformancePage />
             <SentimentSection />
+            <AboutSection />
+            {/* <Tokenomics /> */}
           </div>
         </div>
 

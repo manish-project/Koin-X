@@ -24,18 +24,18 @@ function SentimentSection() {
         <div className=" ml-24  lg:mt-12 mt-5 mb-24">
           <div className="flex items-center px-5 py-2">
             <h3 className="text-lg text-gray-500 font-semibold">Buy</h3>
-            <div className=" ml-10 lg:w-96 md:w-72 w-20 bg-green-500 h-2 rounded-lg"></div>
-            <p className="p-1">76%</p>
+            <div className="lg:ml-10 ml-5 lg:w-96 md:w-72 w-20 bg-green-500 h-2 rounded-lg"></div>
+            <p className="lg:p-1">76%</p>
           </div>
           <div className="flex  items-center px-5 py-2">
             <h3 className="text-lg text-gray-500 font-semibold">Hold</h3>
             <div className="ml-10 lg:w-20 w-8 bg-slate-500 h-2 rounded-lg"></div>
-            <p className="p-1">8%</p>
+            <p className="lg:p-1">8%</p>
           </div>
           <div className="flex  items-center px-5 py-2">
             <h3 className="text-lg text-gray-500 font-semibold">Sale</h3>
             <div className="ml-10 lg:w-60 md:48 w-16 bg-red-500 h-2 rounded-lg"></div>
-            <p className="p-1">16%</p>
+            <p className="lg:p-1">16%</p>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ function Carousel() {
   };
 
   return (
-    <div className="rounded-lg">
+    <div className=" max-w-full rounded-lg">
       <div className="mt-6">
         <Slider {...settings}>
           {data.map((item, index) => (
